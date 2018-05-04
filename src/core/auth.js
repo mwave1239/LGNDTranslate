@@ -3,7 +3,7 @@
 // Add Your Discord Bot Token here
 // Discord Dev > My Apps > Bot > App Bot User > Token > Reveal
 // https://discordapp.com/developers/applications/me
-//
+// To add the token, remove process.env.DISCORD_TOKEN and replace with your actual token
 
 
 
@@ -13,7 +13,7 @@ exports.token = process.env.DISCORD_TOKEN;
 // Add your Discord Main User ID here
 // In Discord, Go to Settings > Appearance > Enable Developer Mode
 // Right click your user in channel/message and pick "Copy ID" to obtain
-//
+// Replace process.env.DISCORD_TOKEN with the actual token
 
 exports.botOwner = process.env.DISCORD_TOKEN;
 
@@ -25,7 +25,7 @@ exports.shards = 2;
 
 //
 // Invite URL (OAuth2)
-//
+// Replace process.env.DISCORD_INVITE_URL with the OA2Auth generator URL from the Discord site
 
 exports.invite = process.env.DISCORD_INVITE_URL;
 
